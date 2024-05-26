@@ -5,19 +5,28 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #1b60df;
 }
 
 .container {
     text-align: center;
     background: #fff;
-    padding: 2rem;
+    padding: 5rem;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 button {
     margin: 0.5rem;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1.5rem;
     font-size: 1rem;
+    border-radius: 10px;
+    background: #1b60df;
+    color: white;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-3px);
 }
